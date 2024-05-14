@@ -25,6 +25,17 @@ public class PrjGroup3 {
         doWhileJonathanGuamanJG cc;
         cc = new doWhileJonathanGuamanJG();
 
+
+        forLizethL fl = new forLizethL();
+        forHernandezH fh = new forHernandezH();
+        forLizethHernandezLH flh = new forLizethHernandezLH();
+        whileLizethL wl = new whileLizethL();
+        whileHernandezH wh = new whileHernandezH();
+        whileLizethHernandezLH wlh = new whileLizethHernandezLH();
+        doWhileLizethL dl = new doWhileLizethL();
+        doWhileHernandezH dh = new doWhileHernandezH();
+        doWhileLizethHernandezLH dlh = new doWhileLizethHernandezLH();
+
         System.out.println(
                 "-----------------------------------------------------------------------------------------------------------------");
         System.out.println("                                      ESCUELA POLITECNICA NACIONAL");
@@ -100,6 +111,17 @@ public class PrjGroup3 {
         dwDG.imprimirDoWhileLetraDG(tamano, carac);
 
         System.out.println("De Lizeth Hernandez");
+        fl.imprimirForLetraL(tamano , carac);
+        fh.imprimirForLetraH(tamano , carac);
+        flh.imprimirForLetrasLH(tamano , carac);
+        wl.imprimirWhileLetraL(tamano , carac);
+        wh.imprimirWhileLetraH(tamano , carac);
+        wlh.imprimirWhileLetrasLH(tamano , carac);
+        dl.imprimirDoWhileLetraL(tamano , carac);
+        dh.imprimirDoWhileLetraH(tamano , carac);
+        dlh. imprimirDoWhileLetrasLH(tamano , carac);
+
+
         System.out.println("De Jhojan Zambrano");
     }
 }
