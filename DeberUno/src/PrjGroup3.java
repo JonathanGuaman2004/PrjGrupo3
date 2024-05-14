@@ -1,31 +1,32 @@
 import java.util.Scanner;
 
-public  class PrjGroup3{
+public class PrjGroup3 {
     public static void main(String[] args) {
-        //variables NO TOCAR, solo anadir las suyas
+        // variables NO TOCAR, solo anadir las suyas
         Scanner ingresoDatos = new Scanner(System.in);
         String carac;
         int tamano;
         forJonathanJ aa;
-        aa=new forJonathanJ();
+        aa = new forJonathanJ();
         forGuamanG ab;
-        ab=new forGuamanG();
+        ab = new forGuamanG();
         forJonathanGuamanJG ac;
-        ac=new forJonathanGuamanJG();
+        ac = new forJonathanGuamanJG();
         whileJonathanJ ba;
-        ba=new whileJonathanJ();
+        ba = new whileJonathanJ();
         whileGuamanG bb;
-        bb=new whileGuamanG();
+        bb = new whileGuamanG();
         whileJonathanGuamanJG bc;
-        bc=new whileJonathanGuamanJG();
+        bc = new whileJonathanGuamanJG();
         doWhileJonathanJ ca;
-        ca=new doWhileJonathanJ();
+        ca = new doWhileJonathanJ();
         doWhileGuamanG cb;
-        cb=new doWhileGuamanG();
+        cb = new doWhileGuamanG();
         doWhileJonathanGuamanJG cc;
-        cc=new doWhileJonathanGuamanJG();
-        
-        System.out.println("-----------------------------------------------------------------------------------------------------------------");
+        cc = new doWhileJonathanGuamanJG();
+
+        System.out.println(
+                "-----------------------------------------------------------------------------------------------------------------");
         System.out.println("                                      ESCUELA POLITECNICA NACIONAL");
         System.out.println("                                                  GRUPO 3");
         System.out.println("INTEGRANTES:");
@@ -35,7 +36,7 @@ public  class PrjGroup3{
         System.out.println("- David Guanochanga");
         System.out.println("- Lizeth Hernandez");
         System.out.println("- Jhojan Zambrano");
-        //anadirse
+        // anadirse
         System.out.println("Hola, este proyecto tiene el proposito de imprimir las letras iniciales de cada");
         System.out.println("uno de los participantes, la inicial del primer nombre, primer apellido y un ");
         System.out.println("conjunto de ambas; ademas, se utiliza diferentes maneras de realizar esta activdad");
@@ -46,7 +47,7 @@ public  class PrjGroup3{
         System.out.println("Por favor a continuacion ingrese el tamano de las letras que desea");
         tamano = Integer.parseInt(ingresoDatos.nextLine());
         System.out.println("a continuacion elija el simbolo o caracter que desea utilizar para su representacion");
-        carac=ingresoDatos.nextLine();
+        carac = ingresoDatos.nextLine();
         System.out.println("De Jonathan Guaman");
         aa.imprimirForLetraJ(tamano, carac);
         ab.imprimirForLetraG(tamano, carac);
@@ -58,11 +59,46 @@ public  class PrjGroup3{
         cb.imprimirDoWhileLetraG(tamano, carac);
         cc.imprimirDoWhileLetrasJG(tamano, carac);
 
-
-        //Llenar sus funciones con el mismo parametro
+        // Llenar sus funciones con el mismo parametro
         System.out.println("De Erick Gualoto");
         System.out.println("De Nayeli Gualpa");
         System.out.println("De David Guanochanga");
+        System.out.println(" --- FOR ---");
+        System.out.println();
+
+        forDavidD fd = new forDavidD();
+        fd.imprimirForLetraD(tamano, carac);
+
+        forGuanochangaG fg = new forGuanochangaG();
+        fg.imprimirForLetraG(tamano, carac);
+
+        forDavidGuanochangaDG fdg = new forDavidGuanochangaDG();
+        fdg.imprimirForLetraDG(tamano, carac);
+
+        System.out.println(" --- WHILE ---");
+        System.out.println();
+
+        whileDavidD wd = new whileDavidD();
+        wd.imprimirWhileLetraD(tamano, carac);
+
+        whileGuanochangaG wg = new whileGuanochangaG();
+        wg.imprimirWhileLetraG(tamano, carac);
+
+        whileDavidGuanochangaDG wdg = new whileDavidGuanochangaDG();
+        wdg.imprimirWhileLetraDG(tamano, carac);
+
+        System.out.println(" --- DO-WHILE ---");
+        System.out.println();
+
+        doWhileDavidD dwd = new doWhileDavidD();
+        dwd.imprimirDoWhileLetraD(tamano, carac);
+
+        doWhileGuanochangaG dwg = new doWhileGuanochangaG();
+        dwg.imprimirDoWhileLetraG(tamano, carac);
+
+        doWhileDavidGuanochangaDG dwDG = new doWhileDavidGuanochangaDG();
+        dwDG.imprimirDoWhileLetraDG(tamano, carac);
+
         System.out.println("De Lizeth Hernandez");
         System.out.println("De Jhojan Zambrano");
     }
