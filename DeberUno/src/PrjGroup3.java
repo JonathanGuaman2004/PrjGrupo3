@@ -62,6 +62,65 @@ public class PrjGroup3 {
         // Llenar sus funciones con el mismo parametro
         System.out.println("De Erick Gualoto");
         System.out.println("De Nayeli Gualpa");
+          //n=8 : Parametro base para todos los bucles 
+          int n= 9;
+        
+          //For
+          System.out.println( "-----------For-------------");
+          System.out.println();
+  
+              forNayeliN fN;
+              fN= new forNayeliN();
+              fN.imprimirForLetraN(n); 
+              System.out.println();
+  
+              forGualpaG fG;
+              fG= new forGualpaG();
+              fG.imprimirForLetraG(n);
+              System.out.println();
+  
+              forNayeliGualpaNG fNG;
+              fNG= new forNayeliGualpaNG();
+              fNG.imprimirForLetraNG(n);
+              System.out.println();
+  
+          //While
+          System.out.println("----------While-------------");
+          System.out.println();
+  
+               whileNayeliN  wN;
+               wN= new whileNayeliN();
+               wN.imprimirWhileLetraN(n);
+               System.out.println();
+  
+               whileGualpaG  wG;
+               wG= new whileGualpaG();
+               wG.imprimirWhileLetraG(n);
+               System.out.println();
+  
+               whileNayeliGualpaNG  wNG;
+               wNG= new whileNayeliGualpaNG();
+               wNG.imprimirWhileLetraNG(n);
+               System.out.println();
+  
+          //Do-While
+          System.out.println("-----------Do-While-----------");
+          System.out.println();
+  
+                doWhileNayeliN  dN;
+                dN=new doWhileNayeliN();
+                dN.imprimirdoWhileLetraN(n);
+                System.out.println();
+                
+                doWhileGualpaG  dG;
+                dG=new doWhileGualpaG();
+                dG.imprimirdoWhileLetraG(n);
+                System.out.println();
+  
+                doWhileNayeliGualpaNG dNG;
+                dNG=new doWhileNayeliGualpaNG();
+                dNG.imprimirdoWhileLetraNG(n);
+                System.out.println();
         System.out.println("De David Guanochanga");
         System.out.println(" --- FOR ---");
         System.out.println();
