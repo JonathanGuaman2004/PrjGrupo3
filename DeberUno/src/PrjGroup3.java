@@ -102,6 +102,7 @@ public class PrjGroup3 {
         fj.imprimirDoWhileLetraG(tamano, carac);
         doWhileErickGualotoEG fi = new doWhileErickGualotoEG();
         fi.imprimirDoWhileLetraEG(tamano, carac);
+        System.out.println(" ");
         System.out.println("De Nayeli Gualpa");
           //n=8 : Parametro base para todos los bucles 
           int n= 9;
@@ -128,7 +129,7 @@ public class PrjGroup3 {
           //While
           System.out.println("----------While-------------");
           System.out.println();
-  
+
                whileNayeliN  wN;
                wN= new whileNayeliN();
                wN.imprimirWhileLetraN(n);
@@ -201,49 +202,58 @@ public class PrjGroup3 {
 
         System.out.println("De Lizeth Hernandez");
         fl.imprimirForLetraL(tamano , carac);
+        System.out.println(" ");
         fh.imprimirForLetraH(tamano , carac);
+        System.out.println(" ");
         flh.imprimirForLetrasLH(tamano , carac);
+        System.out.println(" ");
         wl.imprimirWhileLetraL(tamano , carac);
+        System.out.println(" ");
         wh.imprimirWhileLetraH(tamano , carac);
+        System.out.println(" ");
         wlh.imprimirWhileLetrasLH(tamano , carac);
+        System.out.println(" ");
         dl.imprimirDoWhileLetraL(tamano , carac);
+        System.out.println(" ");
         dh.imprimirDoWhileLetraH(tamano , carac);
+        System.out.println(" ");
         dlh. imprimirDoWhileLetrasLH(tamano , carac);
+        System.out.println(" ");
 
 
         System.out.println("De Jhojan Zambrano");
         ForJhojanJ ij;
         ij = new ForJhojanJ();
         ij.forTamJ(tamano, carac);
-
+        System.out.println(" ");
         ForZambranoZ iz;
         iz = new ForZambranoZ();
         iz.forTamZ(tamano, carac);
-
+        System.out.println(" ");
         ForJhojanZambranoJZ ijz;
         ijz = new ForJhojanZambranoJZ();
         ijz.forTamJZ(tamano, carac);
-
+        System.out.println(" ");
         WhileJhojanJ wj;
         wj = new WhileJhojanJ();
         wj.whileTamJ(tamano, carac);
-
+        System.out.println(" ");
         WhileZambranoZ wz;
         wz = new WhileZambranoZ();
         wz.whileTamZ(tamano, carac);
-        
+        System.out.println(" ");
         WhileJhojanZambranoJZ wjz;
         wjz = new WhileJhojanZambranoJZ();
         wjz.whileTamJZ(tamano, carac);
-
+        System.out.println(" ");
         DoWhileJhojanJ dwj;
         dwj = new DoWhileJhojanJ();
         dwj.doWhileTamJ(tamano, carac);
-
+        System.out.println(" ");
         DoWhileZambranoZ dwz;
         dwz = new DoWhileZambranoZ();
         dwz.doWhileTamZ(tamano, carac);
-
+        System.out.println(" ");
         DoWhileJhojanZambranoJZ dwjz;
         dwjz = new DoWhileJhojanZambranoJZ();
         dwjz.doWhileTamJZ(tamano, carac);
