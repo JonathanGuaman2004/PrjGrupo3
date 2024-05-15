@@ -182,5 +182,40 @@ public class PrjGroup3 {
 
 
         System.out.println("De Jhojan Zambrano");
+        ForJhojanJ ij;
+        ij = new ForJhojanJ();
+        ij.forTamJ(tamano, carac);
+
+        ForZambranoZ iz;
+        iz = new ForZambranoZ();
+        iz.forTamZ(tamano, carac);
+
+        ForJhojanZambranoJZ ijz;
+        ijz = new ForJhojanZambranoJZ();
+        ijz.forTamJZ(tamano, carac);
+
+        WhileJhojanJ wj;
+        wj = new WhileJhojanJ();
+        wj.whileTamJ(tamano, carac);
+
+        WhileZambranoZ wz;
+        wz = new WhileZambranoZ();
+        wz.whileTamZ(tamano, carac);
+        
+        WhileJhojanZambranoJZ wjz;
+        wjz = new WhileJhojanZambranoJZ();
+        wjz.whileTamJZ(tamano, carac);
+
+        DoWhileJhojanJ dwj;
+        dwj = new DoWhileJhojanJ();
+        dwj.doWhileTamJ(tamano, carac);
+
+        DoWhileZambranoZ dwz;
+        dwz = new DoWhileZambranoZ();
+        dwz.doWhileTamZ(tamano, carac);
+
+        DoWhileJhojanZambranoJZ dwjz;
+        dwjz = new DoWhileJhojanZambranoJZ();
+        dwjz.doWhileTamJZ(tamano, carac);
     }
 }
