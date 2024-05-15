@@ -4,22 +4,18 @@ public class doWhileErickE {
         if (tamano >= 5) {
             int i = 1;
             do {
-                if (i == 1 || i == tamano || i == tamano / 2 + 1) {
+                if (i % 2 != 0) {
                     int j = 1;
                     do {
                         System.out.print(caracter);
                         j++;
                     } while (j <= tamano);
-                } else if (i > tamano / 2 + 1) {
-                    System.out.print(caracter);
+                } else {
                     int j = 1;
                     do {
-                        System.out.print(" ");
+                        System.out.print(caracter);
                         j++;
-                    } while (j <= tamano - 2);
-                    System.out.print(caracter);
-                } else {
-                    System.out.print(caracter);
+                    } while (j <= tamano / 2);
                 }
                 System.out.println();
                 i++;
