@@ -11,4 +11,4 @@
   * Lizeth Mayeli Hernández Cusicagua 🫠
   * Jhojan Sebastian Zambrano Curicho 😎
 
-Hola, este proyecto tiene el proposito de imprimir las letras iniciales de cada uno de los participantes, la inicial del primer nombre, primer apellido y un conjunto de ambas; además, se utiliza diferentes maneras de realizar esta activdad al aplicar las funciones de ciclos 'FOR', 'WHILE' y 'DO - WHILE'");
+Hola, este proyecto tiene el proposito de imprimir las letras iniciales de cada uno de los participantes, la inicial del primer nombre, primer apellido y un conjunto de ambas; además, se utiliza diferentes maneras de realizar esta activdad al aplicar las funciones de ciclos 'FOR', 'WHILE' y 'DO - WHILE'"
