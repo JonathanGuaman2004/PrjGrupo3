@@ -113,7 +113,7 @@ public class PrjGroup3 {
 
 		forNayeliN fN;
 		fN= new forNayeliN();
-		fN.imprimirForLetraN(n); 
+		fN.imprimirForLetraN(n);
 		System.out.println();
 
 		forGualpaG fG;
